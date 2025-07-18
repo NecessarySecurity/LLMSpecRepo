@@ -1,0 +1,5 @@
+llm_specification:
+  version: "1.0"
+  overview:
+    purpose: "Placeholder LLM spec for internal use."
+    scope: "Example."

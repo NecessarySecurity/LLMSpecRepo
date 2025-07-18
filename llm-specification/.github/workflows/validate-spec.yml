@@ -1,0 +1,21 @@
+name: Validate LLM Spec
+
+on:
+  push:
+    paths:
+      - 'spec/**.yaml'
+  pull_request:
+
+jobs:
+  validate-yaml:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install pyyaml
+      - name: Lint YAML
+        run: python -c 'import yaml; yaml.safe_load(open("spec/llm-spec.yaml"))'
