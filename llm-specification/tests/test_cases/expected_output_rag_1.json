@@ -1,0 +1,12 @@
+{
+  "alignment": "partial",
+  "issues_detected": [
+    "Chatbot access to sensitive HR data is not documented as compliant.",
+    "Lack of documented isolation from production systems."
+  ],
+  "recommendations": [
+    "Ensure chatbot runs in a sandbox environment.",
+    "Conduct data classification check and ensure HR data is not exposed."
+  ],
+  "confidence": 0.82
+}

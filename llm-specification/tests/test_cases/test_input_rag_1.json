@@ -1,0 +1,10 @@
+{
+  "use_case": "LLM chatbot to assist internal employees with HR questions.",
+  "context": "Architecture Review Board review",
+  "reference_documents": [
+    "HR-Policy-Use-of-AI.pdf",
+    "Corporate-Data-Usage-Standard.docx"
+  ],
+  "query": "Does this use case comply with our AI usage policies?",
+  "expected_behavior": "The LLM should flag a potential misalignment if HR data is classified as sensitive and the chatbot is not isolated from production."
+}

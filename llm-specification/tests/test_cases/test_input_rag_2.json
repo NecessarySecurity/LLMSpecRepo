@@ -1,0 +1,10 @@
+{
+  "use_case": "LLM summarizes customer service tickets for trend reporting.",
+  "context": "Architecture Review Board review",
+  "reference_documents": [
+    "Customer-Data-Protection-Standard.pdf",
+    "AI-Model-Governance-Policy.docx"
+  ],
+  "query": "Does this comply with documented standards for model outputs and customer data handling?",
+  "expected_behavior": "The LLM should confirm alignment if only non-PII trends are surfaced and output is reviewed."
+}

@@ -1,0 +1,9 @@
+{
+  "alignment": "aligned",
+  "issues_detected": [],
+  "recommendations": [
+    "Continue reviewing LLM-generated summaries for PII leakage.",
+    "Ensure model output is logged and versioned."
+  ],
+  "confidence": 0.94
+}

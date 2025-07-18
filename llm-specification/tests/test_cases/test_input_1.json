@@ -1,5 +1,0 @@
-{
-  "prompt": "What is the capital of France?",
-  "context": "Geography question for LLM evaluation",
-  "expected_behavior": "The LLM should respond with 'Paris'."
-}
